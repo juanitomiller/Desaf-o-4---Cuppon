@@ -1,0 +1,83 @@
+body{
+	Font-family: 'Roboto', sans-serif;
+}
+.navbar-brand {
+    font-size: 25px;
+}
+/*Ajuste de tamaño a las card*/
+.card {
+    margin: 0 auto;
+}
+.font {
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+}
+.text-secondary{
+	font-weight: 80;
+	color: #707070;
+	margin: 0;
+}
+.container-fluid {
+   display:flex;
+   justify-content: center;
+
+}
+.text-success{
+	font-size: 20px;
+	font-weight: 62px;
+}
+
+.mb-3 {
+    margin: 30px;
+    width: 600px;
+    
+}
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  footer{
+    text-align: center;
+  }
+  
+  footer img{
+    width: 100px;
+    padding-top: 10px;
+  }
+  
+  footer p{
+    color:#707070;
+    font-weight:100;
+  }
+  
+  
+
+:root {
+        --light: #f8f9fa;
+        --success: #28a745;
+        --white: #fff;
+        --color-1: #212529;
+        --color-2: #707070;
+    }
+
+    .bg-green-success {
+      background-color: var(--success) ;
+    }
+    .bg-light-success {
+      background-color: var(--light) ;
+    }
+   .text-gray-2 {
+    color: var(--color-2);
+   }
+   .text-black-1{
+    color: var(--color-1);
+   }
